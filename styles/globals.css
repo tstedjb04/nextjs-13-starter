@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-weight: normal;
+    src: url('/fonts/NotoSans/NotoSans-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    src: url('/fonts/NotoSans/NotoSans-Bold.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Thai';
+    font-weight: normal;
+    src: url('/fonts/NotoSans/NotoSansThai-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Thai';
+    font-weight: bold;
+    src: url('/fonts/NotoSans/NotoSansThai-Bold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sukhumvit';
+    font-weight: normal;
+    src: url('/fonts/Sukhumvit/SukhumvitSet-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sukhumvit';
+    font-weight: bold;
+    src: url('/fonts/Sukhumvit/SukhumvitSet-Bold.ttf');
+    font-display: swap;
+}
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sukhumvit', 'Noto Sans', 'Noto Sans Thai';
+    font-weight: normal;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
